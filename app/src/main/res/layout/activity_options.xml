@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:background="@color/colorPrimary"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".apartremotecontroller.presentation.activity.OptionsActivity">
+
+    <EditText
+        android:id="@+id/ip_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="@string/activity_options_enter_ip"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/port_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="@string/activity_options_enter_port"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/login_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/activity_options_save"
+        android:textColor="@color/white" />
+
+</LinearLayout>

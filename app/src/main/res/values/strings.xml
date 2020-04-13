@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Apart Remote Controller</string>
+    <string name="source_number_format">0%d</string>
+    <string name="sound_switch_on_title">Включить звук</string>
+    <string name="sound_switch_off_title">Выключить звук</string>
+    <string name="volume_up_request_format">$%svup</string>
+    <string name="volume_down_request_format">$%svdn</string>
+    <string name="mute_request_format">$%sM%s</string>
+    <string name="source_request_format">$%sS%s</string>
+    <string name="source_response_format">$%sS</string>
+    <string name="mute_response_format">$%sM</string>
+    <string name="volume_response_format">$%sV</string>
+    <string name="mute_status_request_format">$%sR 2</string>
+    <string name="source_status_request_format">$%sR 5</string>
+    <string name="volume_status_request_format">$%sR 6</string>
+    <string name="mute_disabled_value">02</string>
+    <string name="mute_enabled_value">01</string>
+    <string name="activity_main_volume_up">Громкость +</string>
+    <string name="activity_main_volume_down">Громкость -</string>
+    <string name="activity_main_unmute">Выключить звук</string>
+    <string name="activity_main_source">Источник</string>
+    <string name="activity_main_data_loading">Запрос настроек</string>
+    <string name="activity_options_enter_ip">Введите IP</string>
+    <string name="activity_options_enter_port">Введите порт</string>
+    <string name="activity_options_save">Сохранить</string>
+    <string name="content_description_settings_button">settings_button</string>
+    <string name="content_description_edit_zone_1">Edit zone 1</string>
+    <string name="content_description_edit_zone_2">Zone edit 2</string>
+    <string name="content_description_edit_zone_3">Edit zone 3</string>
+    <string name="content_description_edit_zone_4">Edit zone 4</string>
+    <string name="content_description_logotype">Logotype</string>
+    <string name="dialog_change_name_save">Сохранить</string>
+    <string name="dialog_change_name_enter_name_hint">Введите название</string>
+    <string name="content_description_edit_item">Edit item</string>
+</resources>
