@@ -5,5 +5,4 @@ public class Global {
     public static Integer DEFAULT_PORT = 4001;
 
     public static final String ZONE_INDEX = "zone_index";
-
 }
